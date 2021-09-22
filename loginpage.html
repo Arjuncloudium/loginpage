@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <style>
+            body {
+                background-color: #374048;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            .container {
+                width: 800px;
+                height: 700px;
+                margin: auto;
+                margin-top: 100px;
+                margin-bottom: 10px;
+                /* background-color: darkgray; */
+            }
+
+            .grad {
+                width: 700px;
+                height: 60px;
+                /* background-color: darkkhaki; */
+                display: flex;
+                /* flex-wrap: nowrap; */
+                /* justify-content: space-evenly; */
+                background-image: linear-gradient(to right, #0000CC 50%, #0099FF 50%);
+                margin: auto;
+                margin-top: 50px;
+            }
+
+            .facebook {
+                color: white;
+                margin: auto;
+            }
+
+            .twitter {
+                color: white;
+                margin: auto;
+            }
+
+            .sign {
+                width: 700px;
+                height: 60px;
+                /* background-color: teal; */
+                color: white;
+                text-align: center;
+                margin: auto;
+                padding-top: 30px;
+            }
+            .form1{
+                width: 700px;
+                height: 400px;
+                /* background-color: thistle; */
+                margin: auto;
+            }
+            .the-form{
+                width: 700px;
+                height: 400px;
+                /* background-color: tomato; */
+            }
+            .form-element{
+                width: 340px;
+                height: 50px;
+                margin-top: 20px;
+            }
+            #email{
+                width: 692px;
+                height: 50px;
+            }
+            #password{
+                width: 692px;
+                height: 50px;
+            }
+            .terms {
+                width: 700px;
+                height: 60px;
+                /* background-color: teal; */
+                color: white;
+                text-align: center;
+                margin: auto;
+                margin-top: 20px;
+                padding-top: 30px;
+            }
+            #btn{
+                width: 700px;
+                height: 60px;
+                /* background-color: rgb(128, 0, 111); */
+                color: white;
+                text-align: center;
+                margin: auto;
+                margin-top: 20px;
+                padding-top: 30px;
+            }
+            
+            #btn1{
+                background-color:springgreen;
+                color: white;
+            }
+            #btn1:hover{
+                color: teal;
+            }
+            a{
+                color:rgb(41, 53, 223)
+            }
+            a:hover{
+                color: springgreen;
+            }
+            
+
+        </style>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="grad">
+                <div class="facebook"><i class="fa fa-facebook-f"></i> Connect with Facebook</div>
+                <div class="twitter"><i class="fa fa-twitter"></i>Connect with Facebook</div>
+            </div>
+            <div class="sign"><b>Or sign up with</b></div>
+
+            <div class="form1">
+                <form action="#" class="the-form">
+                    <input type="text" id="first" class="form-element" placeholder="First Name">
+                    <input type="text" id="last" class="form-element" placeholder="Last Name">
+                    <input type="email" id="email" class="form-element" placeholder="Email">
+                    <input type="password" id="password" class="form-element" placeholder="password">
+                    <br>
+                    <div class="terms">By create an account,your agree to our <a href=""><b>Terms&conditions</b> </a></div>
+                    <div id="btn">
+
+                        <Button id="btn1" class="form-element">Create an account</Button>
+                    </div>
+                    
+                </form>
+            </div>
+
+        </div>
+    </body>
+
+</html>
